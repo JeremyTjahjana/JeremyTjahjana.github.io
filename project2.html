@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Checkervisor</title>
+    <link rel="stylesheet" href="projectcss.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo">J<span>T</span></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="dropdown">
+                <a href="#">More ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="#">Option 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="project-details">
+        <!-- Carousel Container -->
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="art1.jpg" alt="Project Image 1">
+                <img src="art2.jpg" alt="Project Image 2">
+                <img src="art3.jpg" alt="Project Image 3">
+                <img src="art5.jpg" alt="Project Image 4">
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+
+        <div class="description">
+            <h2>Art Project</h2>
+            <p class="aligned-text" >
+                This is where I share some of my digital art creations a hobby that lets me 
+                explore ideas and experiment with different styles. Each piece reflects a bit 
+                of my creativity and growth. I hope you enjoy exploring them as much as I enjoyed 
+                making them!
+            </p>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/just_adumbartist/">More art</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Jeremy Tjahjana. All Rights Reserved.</p>
+    </footer>
+    <script src="carousel.js"></script>
+</body>
+</html>

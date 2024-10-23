@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Checkervisor</title>
+    <link rel="stylesheet" href="projectcss.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo">J<span>T</span></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="dropdown">
+                <a href="#">More ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="#">Option 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="project-details">
+        <!-- Carousel Container -->
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="ro1.jpg" alt="Project Image 1">
+                <img src="ro2.jpg" alt="Project Image 2">
+                <img src="ro3.jpg" alt="Project Image 3">
+                <img src="ro4.jpg" alt="Project Image 4">
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+
+        <div class="description">
+            <h2>Project 1 - Right Over</h2>
+            <p class="aligned-text" >
+                RightOver is an app that helps you get creative in the kitchen by giving fun and healthy 
+                recipe ideas based on the ingredients you already have. Instead of 
+                letting leftovers go to waste, the app suggests meals that are easy to make and good for you.
+                Built with Swift, RightOver makes cooking simple and enjoyable, helping you 
+                turn what’s left in the fridge into 
+                something delicious and satisfying—no stress, just great food!
+            </p>
+        </div>
+        <div>
+            <a href="RightOver.zip">Download Project here</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Jeremy Tjahjana. All Rights Reserved.</p>
+    </footer>
+    <script src="carousel.js"></script>
+</body>
+</html>
